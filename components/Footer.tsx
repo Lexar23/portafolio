@@ -1,13 +1,14 @@
 "use client";
 
 import { portfolioData } from "@/data/portfolioData";
+import { ContactForm } from "./ContactForm";
 
 export const Footer = () => {
     return (
         <footer id="contact" className="pt-24 pb-12 px-6 border-t border-white/5 bg-gradient-to-b from-transparent to-accent/5">
             <div className="max-w-7xl mx-auto flex flex-col items-center text-center space-y-12">
                 <h2 className="text-4xl md:text-6xl font-bold tracking-tight">
-                    Let's <span className="text-accent underline decoration-accent/30">Connect</span> & Build.
+                    Let&apos;s <span className="text-accent underline decoration-accent/30">Connect</span> & Build.
                 </h2>
 
                 <p className="max-w-xl text-foreground/60 text-lg">
@@ -15,7 +16,9 @@ export const Footer = () => {
                     to exciting projects and grow alongside experienced developers.
                 </p>
 
-                <div className="flex flex-wrap justify-center gap-6 text-sm font-medium">
+                <ContactForm />
+
+                <div className="flex flex-wrap justify-center gap-6 text-sm font-medium pt-8">
                     <a href={`mailto:${portfolioData.email}`} className="px-6 py-4 rounded-2xl bg-white/5 border border-white/10 hover:border-accent group transition-all">
                         <span className="text-accent/60 group-hover:text-accent mr-3">Contact via Email</span>
                         {portfolioData.email}

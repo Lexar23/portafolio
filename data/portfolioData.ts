@@ -20,6 +20,7 @@ export const portfolioData: UserProfile = {
         { name: "Tailwind", category: "Frontend" },
         { name: "CSS Modules", category: "Frontend" },
         { name: "Wordpress", category: "Frontend" },
+        { name: "UI/UX Design", category: "Frontend" },
         { name: "PHP", category: "Backend" },
         { name: "Laravel", category: "Backend" },
         { name: "Blade", category: "Backend" },
@@ -49,13 +50,6 @@ export const portfolioData: UserProfile = {
             description: "Web application for tracking ovulation, fertile days, and logging symptoms.",
             technologies: ["Next.js", "TypeScript", "TailwindCSS", "Supabase", "Vercel"],
             liveUrl: "https://amara-flow.vercel.app/",
-        },
-        {
-            id: "pokedex",
-            title: "Pokedex App",
-            description: "High-performance Pokémon encyclopedia integrated with PokeAPI. Filter by types and view detailed stats.",
-            technologies: ["Next.js", "TypeScript", "Tailwind", "PokeAPI"],
-            liveUrl: "https://pokedex-nextjs-lexar23.vercel.app/",
-        },
+        }
     ],
 };
