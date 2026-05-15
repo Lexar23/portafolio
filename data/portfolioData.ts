@@ -50,6 +50,13 @@ export const portfolioData: UserProfile = {
             description: "Web application for tracking ovulation, fertile days, and logging symptoms.",
             technologies: ["Next.js", "TypeScript", "TailwindCSS", "Supabase", "Vercel"],
             liveUrl: "https://amara-flow.vercel.app/",
+        },
+        {
+            id: "VisTracker",
+            title: "VisTracker",
+            description: "Application for tracking contact lenses orders and delivery to customers of an optometry clinic.",
+            technologies: ["Next.js", "TypeScript", "TailwindCSS", "Supabase", "Vercel"],
+            liveUrl: "https://vistracker.vercel.app/",
         }
     ],
 };
