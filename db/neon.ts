@@ -1,3 +1,4 @@
 import { neon } from '@neondatabase/serverless';
 
-export const sql = neon(process.env.DATABASE_URL || "");
+const connectionString = process.env.DATABASE_URL || "postgres://dummy:dummy@localhost:5432/dummy";
+export const sql = neon(connectionString);
